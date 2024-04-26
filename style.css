@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-shadow: none;
+}
+
+.sedan-regular {
+    font-family: "Sedan", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .sedan-regular-italic {
+    font-family: "Sedan", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+
+body{
+    background-color: #c0c0c0;
+}
+
+header {
+    height: 4em;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fffaf0f6;
+    background-color: #003366;
+    
+}
+
+header .info{
+    font-size: 1.4em;
+}  
+
+.info i{
+    margin-right: 0.5em;
+    cursor: pointer;
+    transition: .5s ease;
+}
+
+.info i:hover{
+    font-size: 1.6em;
+    transition: .5s ease;
+}
