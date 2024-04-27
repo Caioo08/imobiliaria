@@ -12,7 +12,13 @@ header {
     justify-content: space-between;
     font-family: "Raleway", sans-serif;
     font-weight: 400;
-    background-color: ghostwhite;
+    background-color: #333333;
+    color: white;
+    border-bottom: 2px solid #ffd700;
+}
+
+body{
+    background-color: #4d4d4d;
 }
 
 .titulo{
@@ -35,7 +41,8 @@ li{
 
 li a{
     text-decoration: none;
-    color: black;
+    color: white;
+    transition: .2s ease-in-out;
 }
 
 li a:hover{
@@ -43,20 +50,14 @@ li a:hover{
     font-weight: 500;
     border-bottom: 1px solid #ffd700;
     font-size: 1.4em;
+    transition: .2s ease-in-out;
 }
 
-hr{
-    border-top: 2px solid #ffd700;
-}
+@media (max-width: 700px) {
+    header{
+        display: block;
+        font-size: 10px;
+        text-align: center;
+    }
 
-h1{
-    font-family: "Raleway", sans-serif;
-    font-weight: 300;
-    text-align: center;
-    padding: 1.5em 4em;
-    font-size: 1.5;
-}
-
-#img2 {
-    float: right;
 }
