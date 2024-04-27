@@ -12,6 +12,7 @@ header {
     justify-content: space-between;
     font-family: "Raleway", sans-serif;
     font-weight: 400;
+    background-color: ghostwhite;
 }
 
 .titulo{
@@ -37,6 +38,25 @@ li a{
     color: black;
 }
 
-hr{
+li a:hover{
     color: #ffd700;
+    font-weight: 500;
+    border-bottom: 1px solid #ffd700;
+    font-size: 1.4em;
+}
+
+hr{
+    border-top: 2px solid #ffd700;
+}
+
+h1{
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+    text-align: center;
+    padding: 1.5em 4em;
+    font-size: 1.5;
+}
+
+#img2 {
+    float: right;
 }
